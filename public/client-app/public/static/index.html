@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STYLiSH</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <meta name="description" content="Stylish讓你用最划算的價格買到所有需要、想要的商品，包含流行服飾配件等你來選購" data-rh="true">
+
+</head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-S72Y90MP8R"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-S72Y90MP8R');
+  </script>
+
+<body>
+    <nav class="nav">
+        <div class="nav__left">
+            <div class="nav__logo-wrap">
+                <a href="index.html">
+                    <img class="nav__logo" src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav__cate" id="nav-cate">
+                <div class="nav__item" id="cate-women" cate="women">女 裝</div>
+                <div class="nav__item" id="cate-men" cate="men">男 裝</div>
+                <div class="nav__item" id="cate-accessories"  cate="accessories">配 件</div>
+            </div>
+        </div>
+        <div class="nav__right">
+            <div class="nav__search-comp">
+                <form id="search-form">
+                    <label for="search-checkbox">
+                        <img class="nav__search-icon" src="images/search.png" alt="" id="search-icon">
+                    </label>
+                    <input type="checkbox" id="search-checkbox">
+                    <input class="nav__search" type="text" name="q" id="search-input">
+                </form>
+    
+            </div>
+            <div class="nav__mobile-panel">
+                <a href="/checkout">
+                <div class="nav__cart">
+                        <div class="nav__cart-icon">
+                            <div class="nav__cart-badge" id="cartCount"></div>
+                        </div>
+                        <div class="nav__cart-text">購物車</div>
+                    </div>
+                </a>
+                <div class="nav__member">
+                    <div class="nav__member-icon"></div>
+                    <div class="nav__member-text">會員</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="carousel" > 
+        <section id="carousel_container">
+        </section>
+        <div>
+            <div class="carousel__progress" id="dot_nav">
+            </div>
+        </div>
+    </div>
+
+    <div class="product--container">
+        <div class="product-grid" id="product-grid">
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__container">
+
+            <div class="footer__left">
+                <div class="footer__list">
+                    <div class="footer__item">關於 <span class="footer__item--touch">STYLiSH</span></div>
+                    <div class="footer__item">服務條款</div>
+                    <div class="footer__item">隱私政策</div>
+                    <div class="footer__item">聯絡我們</div>
+                    <div class="footer__item">FAQ</div>
+                </div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__social">
+                    <img class="social__img" src="images/line.png" alt="" srcset="">
+                    <img class="social__img" src="images/twitter.png" alt="" srcset="">
+                    <img class="social__img" src="images/facebook.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="footer__copyright">© 2018. All rights reserved.</div>
+        </div>
+    </footer>
+    <script src="scripts/app.js" type="module"></script>
+</body>
+
+</html>

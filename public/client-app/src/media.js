@@ -1,0 +1,1 @@
+export const narrowScreen = 'screen and (max-width: 1279px)'
